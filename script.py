@@ -62,7 +62,7 @@ rpcs = {
     "10": {
         "rpc": "https://mainnet.optimism.io",
         "fallbackRPCs": [
-            "https://lb.nodies.app/v1/17f50952adf84d35bb707675019c0618",
+            "https://optimism-mainnet.public.blastapi.io",
             "https://rpc.ankr.com/optimism",
             "https://optimism-rpc.publicnode.com"
         ],
