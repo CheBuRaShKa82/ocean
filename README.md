@@ -1,5 +1,6 @@
 # Ocean node
 Ubuntu 22.04
+
 запуск первоначально скрипта
 apt update
 
