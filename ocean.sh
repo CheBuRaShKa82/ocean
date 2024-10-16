@@ -58,7 +58,7 @@ show_menu() {
     display_ascii
     draw_middle_border
     print_telegram_icon
-    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/WingsNodeTeam${RESET}"
+    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/${RESET}"
     draw_middle_border
 
     # Display current working directory and IP address
@@ -97,7 +97,7 @@ install_node() {
 
     # Install Docker Compose if not installed
     if ! command -v docker-compose &> /dev/null; then
-        sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" \
+        sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.7/docker-compose-$(uname -s)-$(uname -m)" \
         -o /usr/local/bin/docker-compose
         sudo chmod +x /usr/local/bin/docker-compose
     fi
